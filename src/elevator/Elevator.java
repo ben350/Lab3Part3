@@ -25,7 +25,7 @@ public class Elevator {
         passenger_targets = new int[NUM_FLOORS];
     }
     
-    public Elevator(Building building){
+    public Elevator(Building building){ //constructor with building
         
         current_floor = 0;
         moving_up = true;
